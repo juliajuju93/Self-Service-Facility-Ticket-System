@@ -57,3 +57,6 @@ VALUES
 ![CreateRows](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/addRows.gif)
 
 ## Create your minimal web API with ASP.NET Core 
+For this we are using a Visual Studio web API template. This will automatically create a base structure for our scenario. Based on the template structure, we will then build our API logic.
+
+![minimalAPIVSnew](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/minimalAPIVSnew.gif)
