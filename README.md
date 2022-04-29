@@ -16,7 +16,7 @@ Please also check out our [Quickstart: Create an Azure SQL Database single datab
 
 ## Modify your SQL database
 First you need to create a database table
-run the following query for this:
+Run the following query for this:
 ```
 CREATE TABLE dbo.facilityrequests
 (
@@ -31,3 +31,26 @@ CREATE TABLE dbo.facilityrequests
 )
 ```
 ![CreateTable](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/createAzureSQLDatabase.gif)
+
+Next you will add rows to your database, so you will have content in your database.
+Run the following query for this:
+```
+INSERT INTO [dbo].[facilityrequests]
+       ( [id_status]
+       , [id_type]
+       , [id_requestor]
+       , [id_requestor_email]
+       , [id_requestor_department]
+       , [id_requestor_phone]
+       , [id_assignment]
+       )
+VALUES
+       ('OPEN'
+       ,'Mail Room'
+       ,'Julia Test'
+       ,'julia@contoso.com'
+       ,'Dev Div'
+       ,'+1000000000'
+       ,'julia@contoso.com'
+       );
+```
