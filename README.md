@@ -11,3 +11,5 @@ Power App that allows employees to independently review facility service tickets
 * API Management - [About API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts)
 
 ## Create an Azure SQL database
+
+Please check out our [Quickstart: Create an Azure SQL Database single database]()
