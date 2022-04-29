@@ -2,25 +2,19 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#self-service-facility-ticket-system">About The Project</a></li>
+    <li><a href="#getting-started">What you need?</a></li>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+        <a href="#create-an-azure-sql-database">How-To</a>
+        <ul>
+        <li><a href="#create-an-azure-sql-database">Create an Azure SQL database</a></li>
+        <li><a href="#modify-your-sql-database">Modify your SQL database</a></li>
+        <li><a href="#create-your-minimal-web-api-with-aspnet-core">Create your minimal web API with ASP.NET Core</a></li>
+        <li><a href="#add-your-model-and-database-context-classes">Add your model and database context classes</a></li>
+        <li><a href="#add-your-http-request-pipeline">Add your HTTP request pipeline</a></li>
+        <li><a href="#publish-to-azure-api-management">Publish to Azure API Management</a></li>
+        </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -42,7 +36,7 @@ Solution:
 
 
 
-## What you need?
+## Prerequisites?
 * Power Apps environment - [Get started with Power Apps canvas apps](https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps/)
 * Azure SQL database - [Getting started with single databases in Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/quickstart-content-reference-guide?view=azuresql)
 * Visual Studio .NET 6 web API - [Create a minimal web API with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio)
