@@ -54,6 +54,6 @@ VALUES
        ,'julia@contoso.com'
        );
 ```
-![CreateRows](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/createtable.gif)
+![CreateRows](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/addRows.gif)
 
 ## Create your minimal web API with ASP.NET Core 
