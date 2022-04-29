@@ -128,9 +128,14 @@ class FacilityRequetsDb : DbContext
 ## Add your HTTP request pipeline
 In the following, we will create our GET, POST, PUT, DELETE methods. HTTP methods allow to make particular type of calls to servers (in our case our Azure SQL database). Web APIs help to support complex operations and accessing data.
 
-![addModelDatabaseContext](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/addModelDatabaseContext.gif)
+![httpPipeline](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/httpPipeline.gif)
 
 > Have a look at our [Program.cs](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/program.cs) file for the final implementation.
 
 ## Publish to Azure API Management
-
+As a next step, we will publish our API to Azure App Services and API Management.
+Why API Management - it helps meet these challenges:
+* Abstract backend architecture diversity and complexity from API consumers
+* Securely expose services hosted on and outside of Azure as APIs
+* Protect, accelerate, and observe APIs
+* Enable API discovery and consumption by internal and external users
