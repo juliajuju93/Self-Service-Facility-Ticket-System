@@ -1,0 +1,18 @@
+INSERT INTO [dbo].[facilityrequests]
+       ( [id_status]
+       , [id_type]
+       , [id_requestor]
+       , [id_requestor_email]
+       , [id_requestor_department]
+       , [id_requestor_phone]
+       , [id_assignment]
+       )
+VALUES
+       ('OPEN'
+       ,'Mail Room'
+       ,'Julia Test'
+       ,'julia@contoso.com'
+       ,'Dev Div'
+       ,'+1000000000'
+       ,'julia@contoso.com'
+       );
