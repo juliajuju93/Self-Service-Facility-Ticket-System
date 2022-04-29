@@ -12,4 +12,7 @@ Power App that allows employees to independently review facility service tickets
 
 ## Create an Azure SQL database
 
-Please check out our [Quickstart: Create an Azure SQL Database single database]()
+Please also check out our [Quickstart: Create an Azure SQL Database single database](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal) for more detailed information.
+
+## Modify your SQL database
+
