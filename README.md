@@ -64,9 +64,10 @@ For this we are using a Visual Studio web API template. This will automatically 
 
 ![minimalAPIVSnew](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/minimalAPIVSnew.gif)
 
-Make sure you have the following packages installed:
+For the following modifications, make sure you have the following packages installed:
 * Microsoft.EntityFrameworkCore.Design
 * Microsoft.EntityFrameworkCore.SqlServer
 * Swashbuckle.AspNetCore
 
-> Also make sure you have your ConnectionString configured with your credentials from [Create an Azure SQL database](https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps/)
+> Also make sure you have your ConnectionString configured with your credentials from [Create an Azure SQL database](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System#create-an-azure-sql-database)
+
