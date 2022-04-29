@@ -128,6 +128,9 @@ class FacilityRequetsDb : DbContext
 ## Add your HTTP request pipeline
 In the following, we will create our GET, POST, PUT, DELETE methods. HTTP methods allow to make particular type of calls to servers (in our case our Azure SQL database). Web APIs help to support complex operations and accessing data.
 
-Have a look at our [Program.cs](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/program.cs) file for the final implementation.
+![addModelDatabaseContext](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/addModelDatabaseContext.gif)
 
+> Have a look at our [Program.cs](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/program.cs) file for the final implementation.
+
+## Publish to Azure API Management
 
