@@ -4,6 +4,18 @@ Power App that allows employees to independently review facility service tickets
 
 ![Solution Overview](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/architecture.png)
 
+Situation:
+* This Fusion scenario is based on a request from an insurance company, but can be used in many different industries.
+* A simple and scalable solution was developed to make it easier to handle facility management requests from employees.
+* Facility Management, as the business stakeholder, approached the IT department for a suitable solution that they could customize and maintain themselves.
+
+Solution:
+* This solution has 2 interfaces, one for all employees (non-admin interface) that any employee can create and manage ticket requests through. One admin interface where requests can be managed individually.
+* Due to the high number of ticket requests, a SQL database managed by API queries was used.
+* API Management as a secure and consistent data strategy was implemented and supported with a simple and easy generation of custom connectors for Power Apps.
+
+
+
 ## What you need?
 * Power Apps environment - [Get started with Power Apps canvas apps](https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps/)
 * Azure SQL database - [Getting started with single databases in Azure SQL Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/quickstart-content-reference-guide?view=azuresql)
