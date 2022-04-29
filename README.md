@@ -110,7 +110,7 @@ class FacilityRequetsDb : DbContext
     public DbSet<FacilityRequest> FacilityRequests => Set<FacilityRequest>();
 }
 ```
-![apiGeneralConfig](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/apiGeneralConfig.gif)
+![addModelDatabaseContext](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/addModelDatabaseContext.gif)
 
 
 ## Add your HTTP request pipeline
