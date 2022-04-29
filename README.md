@@ -30,7 +30,7 @@ CREATE TABLE dbo.facilityrequests
 [id_assignment] varchar(100) NULL,
 )
 ```
-![CreateTable](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/createAzureSQLDatabase.gif)
+![CreateTable](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/createtable.gif)
 
 Next you will add rows to your database, so you will have content in your database.
 Run the following query for this:
@@ -54,3 +54,5 @@ VALUES
        ,'julia@contoso.com'
        );
 ```
+![CreateRows](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/createtable.gif)
+
