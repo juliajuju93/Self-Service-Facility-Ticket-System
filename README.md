@@ -139,3 +139,5 @@ Why API Management - it helps meet these challenges:
 * Securely expose services hosted on and outside of Azure as APIs
 * Protect, accelerate, and observe APIs
 * Enable API discovery and consumption by internal and external users
+
+![publishAPIManagement](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/publishAPIManagement.gif)
