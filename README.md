@@ -11,7 +11,7 @@ Power App that allows employees to independently review facility service tickets
 * API Management - [About API Management](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts)
 
 ## Create an Azure SQL database
-
+![CreateAzureSQLdatabase](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/createAzureSQLDatabase.gif)
 Please also check out our [Quickstart: Create an Azure SQL Database single database](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal) for more detailed information.
 
 ## Modify your SQL database
