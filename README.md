@@ -12,6 +12,7 @@ Power App that allows employees to independently review facility service tickets
 
 ## Create an Azure SQL database
 ![CreateAzureSQLdatabase](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/createAzureSQLDatabase.gif)
+> Please make sure to note down your Server admin login data and password
 Please also check out our [Quickstart: Create an Azure SQL Database single database](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal) for more detailed information.
 
 ## Modify your SQL database
@@ -65,3 +66,5 @@ Make sure you have the following packages installed:
 * Microsoft.EntityFrameworkCore.Design
 * Microsoft.EntityFrameworkCore.SqlServer
 * Swashbuckle.AspNetCore
+
+Also make sure you have your ConnectionString configured with your 
