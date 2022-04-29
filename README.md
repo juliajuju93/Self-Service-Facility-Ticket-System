@@ -2,8 +2,8 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#self-service-facility-ticket-system">About The Project</a></li>
-    <li><a href="#getting-started">What you need?</a></li>
+    <li><a href="#self-service-facility-ticket-system">About the Fusion Scenario</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
     <li>
         <a href="#create-an-azure-sql-database">How-To</a>
         <ul>
