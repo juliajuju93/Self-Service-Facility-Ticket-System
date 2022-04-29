@@ -15,4 +15,19 @@ Power App that allows employees to independently review facility service tickets
 Please also check out our [Quickstart: Create an Azure SQL Database single database](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal) for more detailed information.
 
 ## Modify your SQL database
-
+First you need to create a database table
+run the following query for this:
+```
+CREATE TABLE dbo.facilityrequests
+(
+[id] int IDENTITY(1,1) NOT NULL,
+[id_status] varchar(30) NULL,
+[id_type] varchar(30) NULL,
+[id_requestor] varchar(30) NULL,
+[id_requestor_email] varchar(100) NULL,
+[id_requestor_department] varchar(30) NULL,
+[id_requestor_phone] varchar(30) NULL,
+[id_assignment] varchar(100) NULL,
+)
+```
+![CreateTable](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/createAzureSQLDatabase.gif)
