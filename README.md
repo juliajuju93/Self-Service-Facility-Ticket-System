@@ -64,7 +64,7 @@ For this we are using a Visual Studio web API template. This will automatically 
 
 ![minimalAPIVSnew](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/minimalAPIVSnew.gif)
 
-For the following modifications, make sure you have the following packages installed:
+For the following modifications, make sure you have the following [NuGet packages](https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio#add-nuget-packages) installed:
 * Microsoft.EntityFrameworkCore.Design
 * Microsoft.EntityFrameworkCore.SqlServer
 * Swashbuckle.AspNetCore
@@ -73,5 +73,45 @@ For the following modifications, make sure you have the following packages insta
 
 ![apiGeneralConfig](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/apiGeneralConfig.gif)
 
-## Configure your HTTP request pipeline
+## Add your model and database context classes
+Find more general information about the minimal API context [here. - Minimal APIs overview](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-6.0). Or check out our [Tutorial: Create a minimal web API with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio).
+
+Our fusion scenario contains the following model:
+```
+class FacilityRequest
+{
+    [Column("id")]
+    public int Id { get; set; }
+    [Column("id_status")]
+    public string? IdStatus { get; set; }
+    [Column("id_type")]
+    public string? IdType { get; set; }
+    [Column("id_requestor")]
+    public string? IdRequestor { get; set; }
+    [Column("id_requestor_email")]
+    public string? IdRequestorEmail { get; set; }
+    [Column("id_requestor_department")]
+    public string? IdRequestorDepartment { get; set; }
+    [Column("id_requestor_phone")]
+    public string? IdRequestorPhone { get; set; }
+    [Column("id_assignment")]
+    public string? IdAssignment { get; set; }
+
+}
+```
+
+Our fusion scenario also contains the following database context class:
+```
+class FacilityRequetsDb : DbContext
+{
+    public FacilityRequetsDb(DbContextOptions<FacilityRequetsDb> options)
+        : base(options) { }
+
+    public DbSet<FacilityRequest> FacilityRequests => Set<FacilityRequest>();
+}
+```
+![apiGeneralConfig](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/apiGeneralConfig.gif)
+
+
+## Add your HTTP request pipeline
 In the following, we will create our GET, POST, PUT, DELETE methods. HTTP methods allow to make particular type of calls to servers (in our case our Azure SQL database). Web APIs help to support complex operations and accessing data.
