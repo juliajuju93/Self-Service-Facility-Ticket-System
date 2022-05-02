@@ -20,7 +20,7 @@
 
 # Self-Service Facility Ticket System
 
-Power App that allows employees to independently review facility service tickets and create new tickets. The Power App will interface with a Web API running in Azure, which provides controlled access to a Azure SQL database.
+Power App that allows employees to independently review facility service tickets and create new tickets. The Power App will interface with a Web API running in Azure, which provides controlled access to an Azure SQL database.
 
 ![Solution Overview](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/architecture.png)
 
@@ -67,7 +67,7 @@ CREATE TABLE dbo.facilityrequests
 ```
 ![CreateTable](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/createtable.gif)
 
-Next you will add rows to your database, so you will have content in your database.
+Next, you will add rows to your database, so you will have some sample content in your database.
 Run the following query for this:
 ```
 INSERT INTO [dbo].[facilityrequests]
