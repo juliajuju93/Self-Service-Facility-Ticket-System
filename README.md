@@ -65,7 +65,8 @@ CREATE TABLE dbo.facilityrequests
 [id_assignment] varchar(100) NULL,
 )
 ```
-![CreateTable](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/assets/createtable.gif)
+
+![CreateTable](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/assets/createTable.gif)
 
 Next, you will add rows to your database, so you will have some sample content in your database.
 Run the following query for this:
