@@ -170,3 +170,4 @@ Here, we will cover how to easily export your API to your Power Apps environment
 ## Custom Connectors and Power Apps
 Next, we will use our custom connector in our Power App, we have created for our use case. The custom connector will call our API. More detailed steps can be found [here.](Use a custom connector from a Power Apps app)
 
+![customConnectorPowerApp](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/assets/customConnectorPowerApp.gif)
