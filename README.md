@@ -166,3 +166,7 @@ Why API Management - it helps meet these common challenges:
 Here, we will cover how to easily export your API to your Power Apps environment using Subscription Key. Further documentation can be found [here - Export APIs from Azure API Management to the Power Platform.](https://docs.microsoft.com/en-us/azure/api-management/export-api-power-platform)
 
 ![APIMCustomConnector](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/assets/APIMCustomConnector.gif)
+
+## Custom Connectors and Power Apps
+Next, we will use our custom connector in our Power App, we have created for our use case. The custom connector will call our API. More detailed steps can be found [here.](Use a custom connector from a Power Apps app)
+
