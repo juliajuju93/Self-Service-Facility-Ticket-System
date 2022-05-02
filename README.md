@@ -106,7 +106,7 @@ For the following modifications, make sure you have the following [NuGet package
 ![apiGeneralConfig](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/apiGeneralConfig.gif)
 
 ## Add your model and database context classes
-Find more general information about the minimal API context [here. - Minimal APIs overview](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-6.0). Or check out our [Tutorial: Create a minimal web API with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio).
+Find more general information about the minimal API context [here - Minimal APIs overview](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-6.0). Or check out our [Tutorial: Create a minimal web API with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio).
 
 Our fusion scenario contains the following model:
 ```
@@ -154,7 +154,7 @@ In the following, we will create our GET, POST, PUT, DELETE methods. HTTP method
 
 ## Publish to Azure API Management
 As a next step, we will publish our API to Azure App Services and API Management.
-Why API Management - it helps meet these challenges:
+Why API Management - it helps meet these common challenges:
 * Abstract backend architecture diversity and complexity from API consumers
 * Securely expose services hosted on and outside of Azure as APIs
 * Protect, accelerate, and observe APIs
@@ -163,3 +163,6 @@ Why API Management - it helps meet these challenges:
 ![publishAPIManagement](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/pictures/publishAPIManagement.gif)
 
 ## API Management and Custom Connector
+Here we will cover how to easily export your API to your Power Apps environment using an Subscription Key. Further documentation can be found [here - Export APIs from Azure API Management to the Power Platform.](https://docs.microsoft.com/en-us/azure/api-management/export-api-power-platform)
+
+![APIMCustomConnector](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/assets/APIMCustomConnector.gif)
