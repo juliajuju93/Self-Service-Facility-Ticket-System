@@ -163,6 +163,6 @@ Why API Management - it helps meet these common challenges:
 ![publishAPIManagement](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/assets/publishAPIManagement.gif)
 
 ## API Management and Custom Connector
-Here we will cover how to easily export your API to your Power Apps environment using an Subscription Key. Further documentation can be found [here - Export APIs from Azure API Management to the Power Platform.](https://docs.microsoft.com/en-us/azure/api-management/export-api-power-platform)
+Here, we will cover how to easily export your API to your Power Apps environment using Subscription Key. Further documentation can be found [here - Export APIs from Azure API Management to the Power Platform.](https://docs.microsoft.com/en-us/azure/api-management/export-api-power-platform)
 
 ![APIMCustomConnector](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/assets/APIMCustomConnector.gif)
