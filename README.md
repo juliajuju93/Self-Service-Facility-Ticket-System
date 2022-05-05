@@ -13,6 +13,8 @@
         <li><a href="#add-your-model-and-database-context-classes">Add your model and database context classes</a></li>
         <li><a href="#add-your-http-request-pipeline">Add your HTTP request pipeline</a></li>
         <li><a href="#publish-to-azure-api-management">Publish to Azure API Management</a></li>
+        <li><a href="#api-management-and-custom-connector">API Management and Custom Connector</a></li>
+        <li><a href="#custom-connectors-and-power-apps">Custom Connectors and Power Apps</a></li>
         </ul>
     </li>
   </ol>
