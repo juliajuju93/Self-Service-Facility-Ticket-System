@@ -27,7 +27,7 @@ Power App that allows employees to independently review facility service tickets
 ![Solution Overview](https://github.com/juliajuju93/Self-Service-Facility-Ticket-System/blob/main/assets/architecture.png)
 
 Situation:
-* This Fusion scenario is based on a request from an insurance company, but can be used in many different industries.
+* This Fusion scenario is inspired by a use case from an insurance company, but can be used in many different industries.
 * A simple and scalable solution was developed to make it easier to handle facility management requests from employees.
 * Facility Management, as the business stakeholder, approached the IT department for a suitable solution that they could customize and maintain themselves.
 
